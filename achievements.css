@@ -1,0 +1,132 @@
+body{
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 60vh;
+background: rgb(171,29,84);
+font-family: Arial, sans-serif;
+
+}
+
+.main-container {
+    margin: 15%;
+    width: 50%;
+    margin-top: 5%;
+    background-color: white;
+    height: 50%;
+    padding: 5%;
+
+
+  
+}
+.navbar{
+    gap: 25%;
+    display:flex;
+    background-color:  rgb(171,29,84);
+    color: aliceblue;
+  
+      
+}
+form{
+    background-color: aliceblue;
+    width:500px;
+}
+
+
+
+
+.company-logo{
+    display:flex
+
+
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    font-size: larger;
+    padding-right: 30%;
+    
+
+}
+.links a{
+    text-decoration: none;
+    color:wheat; 
+    
+}
+.button{
+    padding-left: 50%;
+    font-size: xx-large;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(83, 83, 231);
+    
+}
+
+
+
+@media only screen and (max-width: 768px){
+    body{
+    min-height: 90vh;
+    background: rgb(171,29,84);
+    font-family: Arial, sans-serif;
+    
+    }
+    
+    .main-container {
+
+        background-color: white;
+        margin-left: 0px;
+        margin-right: 40px;
+    
+    
+      
+    }
+    .navbar{
+        display:grid;
+        background-color:  rgb(171,29,84);
+        color: aliceblue;
+      
+          
+    }
+    form{
+        background-color: aliceblue;
+        width:500px;
+    }
+    
+    
+    
+    
+    .company-logo{
+        display:grid;
+    
+    
+    }
+    .navbar a {
+        display: grid;
+    
+        
+    
+    
+        
+    
+    }
+    .links a{
+        text-decoration: none;
+        color:wheat; 
+        padding-right: 20%;
+        display: grid;
+
+        
+    }
+    .button{
+        padding-left: 50%;
+        font-size: large;
+        width: 200px;
+        height: 100px;
+        background-color: rgb(83, 83, 231);
+        
+    }
+    }
+
+

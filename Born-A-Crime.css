@@ -1,0 +1,106 @@
+.main-container{
+background-color:rgb(171,29,84) ;
+color:white;
+height:1000px;
+padding-left: 30%;
+font-size: 20px;
+padding: 8%;
+
+
+
+}
+
+.book-summary{
+    background-color:rgb(171,29,84);
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+
+
+
+}
+.navbar{
+    gap: 10%;
+    display:flex;
+    background-color:  rgb(171,29,84);
+    color: aliceblue;
+    padding-right: 30%;
+    text-decoration: none;
+    
+}
+.navbar a{
+    display: flex;
+    padding-right: 2%;
+    text-decoration: none;
+    color:white;
+}
+.company-logo{
+    display:flex
+
+
+}
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    font-size: larger;
+
+    
+
+}
+.navbar-links a{
+    text-decoration: none;
+    color:white; 
+    
+}
+
+@media only screen and (max-width: 768px){
+    .main-container{
+    color:white;
+    font-size: 5px;
+    display: grid;
+    grid-template-columns:min-content;
+
+    
+    
+    
+    }
+    
+    .book-summary{
+        display: grid;
+        width: 200px;
+        height: fit-content;
+
+    
+    
+    
+    }
+    .navbar{
+        gap: 10px;
+        display: grid;
+
+        color: aliceblue;
+        padding-right: 30px;
+        text-decoration: none;
+        
+    }
+    .navbar a{
+        padding-right: 2%;
+        text-decoration: none;
+        color:white;
+    }
+
+    .navbar-links {
+        flex-direction: row;
+        gap: 20px;
+        font-size: small;
+    
+        
+    
+    }
+    .navbar-links a{
+        text-decoration: none;
+        color:white; 
+        
+    }
+    }

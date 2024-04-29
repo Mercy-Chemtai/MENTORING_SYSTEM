@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="goals.css">
+
+</head>
+<body>
+    <form>
+    <div class="main-container">
+        <div class="navbar">
+            
+                       <img src="images/MyLogo.png" alt="logo" id="logo" width="10%">
+                  
+                   <div class="navbar-links">
+                       <a href="To-Do.html">ToDo</a>
+                       <a href="profile.html">Profile</a>
+                       <a href="goals.html">Goal</a>
+                       <a href="achievements.html">Achievements</a>
+                   </div>
+                    
+                     </div>
+
+                     <div class="goal-terms">
+                        <div>
+                     <h1 style="color: white">Short term</h1>
+                <div class="short-term">
+                        <label for="achievements">New Achievement:</label>
+                        <input type="text" id="achievements" name="achievements" placeholder="Enter achievements">
+                        <button type="button" onclick="addAchievements()">Add</button>
+                
+                    <ul id="Achievements-list">
+            
+                    </ul>
+                    <script src="goals.js"></script>
+                     </div>
+                </div>
+            
+
+
+            <div>
+        
+          <h1 style="color: white;">Long term</h1>
+        
+        <div class="long-term">
+
+                    <label for="achievements">New Achievement:</label>
+                    <input type="text" id="achievements" name="achievements" placeholder="Enter achievements">
+                    <button type="button" onclick="addAchievements()">Add</button>
+            
+                <ul id="achievements-list">
+        
+                </ul>
+                <script src="goals.js"></script>
+
+            </div>
+        </div>
+          </div>
+        </div>
+        </div>
+            </form>
+</body>
+</html>

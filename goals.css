@@ -1,0 +1,242 @@
+body{
+    display:flex;
+    padding-left: 10%;
+    align-items: center;
+    min-height: 70vh;
+    background: rgb(171,29,84);
+    font-family: Arial, sans-serif;
+
+    
+    }
+    
+    .main-container {
+        width: 50%;
+        margin-top: 10%;
+        border-radius:3%;
+        height: 400px;
+    
+      
+    }
+    .navbar{
+        gap: 20%;
+        display:flex;
+        background-color:  white;
+        color:rgb(171,29,84);
+        align-items: center;
+        justify-content: center;
+        padding-left: 120%;
+        width: fit-content;
+    
+      
+          
+    }
+    .short-term{
+        background-color: aliceblue;
+        width: 500px;
+        height: 100px;
+        gap: 40px;
+        padding: 15px;
+        font-size: larger;
+        
+    }
+    .long-term{
+        background-color: aliceblue;
+        width: 500px;
+        gap: 40px;
+        height: 100px;
+        padding: 15px;
+        font-size: larger;
+    }
+    
+    .goal-terms{
+        display: flex;
+        background-color: rgb(171,29,84);
+        gap: 200px;
+        
+    
+    }
+    
+    
+
+    .navbar-links{
+        display: flex;
+        /* flex-direction: row; */
+        gap: 10%;
+        font-size: large;
+        margin-top: 3%;
+        /* justify-content: center; */
+        margin-left: 0px;
+        width: 500px;
+        text-align: left;
+        
+    text-decoration: none;
+        color:rgb(171,29,84); 
+        padding-right: 150%;
+    }
+    .signup button{
+        font-size: xx-large;
+        width: 200px;
+        height: 100px;
+        background-color: rgb(83, 83, 231);
+        
+    }
+    
+    
+    
+    
+    
+    
+    .box{
+        position:relative;
+        width: 450px;
+        height: 550px;
+        border-radius: 30px;
+        background:rgb(171,29,84);
+        padding:30px 50px;
+        box-shadow: 25px 25px 75px rgba(0,0,0,25),
+        10px,10px,70px white,
+        insert 5px 5px 10px rgb(171,29,84)
+        insert 5px 5px 20px rgb(171,29,84),
+        insert -5px -5px 15px rgb(171,29,84);
+    }
+    .h2{
+        width:100%;
+        font-weight:600;
+        text-align:center;
+        color:white;
+        font: size 1.75em;
+    }
+    #inputBox{
+        position:relative;
+        width:100%;
+        border:none;
+        outline:none;
+        padding: 15px 20px;
+        border-radius: 30px;
+    
+    }
+    .box li{
+        position:relative;
+        display: flex;
+        align-items: center;
+       
+    }
+    .remove-button{
+        padding-left: 100%;
+    }
+    #logo{
+        width:100px;
+        height: 100px;
+    }
+
+   @media only screen and (max-width: 720px) {
+        body{
+            display:grid;
+            background: rgb(171,29,84);
+            font-family: Arial, sans-serif;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            width:0px;
+        
+            
+            }
+            logo{
+                width:0px;
+                height: 0px;
+            }
+            .main-container {
+                margin-top: 0%;
+                height: 10px;
+                font-size: smaller;
+                margin-left: 0px;
+            margin-right: 0px;
+            width: 0px;
+            
+              
+            }
+          
+            .navbar{
+                display:grid;
+                background-color:  white;
+                color:rgb(171,29,84);
+                width: 260px;
+                margin-left: 4px;
+                height: 300px;
+                gap: 0px;
+                margin-bottom: 100px;
+              
+                  
+            }
+            .short-term{
+                background-color: aliceblue;
+                margin-left: 0px;
+                width: 245px;
+                font-size: 10px;
+
+            
+                
+            }
+            .long-term{
+                background-color: aliceblue;
+                width: 245px;
+                margin-left: 0px;
+                font-size: 10px;
+                
+            }
+            
+            .goal-terms{
+                display: grid;
+                background-color: rgb(171,29,84);
+                width: 245px;
+                
+            
+            }
+            
+            
+        
+            .navbar-links {
+                display: grid;
+                /* flex-direction: row; */
+                gap: 10px;
+                font-size: small;
+                /* margin-top: 0%; */
+                /* justify-content: center; */
+                margin-left: 0px;
+                width: 46px;
+                margin-bottom: 0px;
+                
+            text-decoration: none;
+                color:rgb(171,29,84); 
+                    }
+            .navbar-links a{
+                text-decoration: none;
+                color:rgb(171,29,84); 
+            }
+            .signup button{
+                height: 50px;
+                background-color: rgb(83, 83, 231);
+                
+            }
+            
+            
+            
+            .box{
+                height: 200px;
+                border-radius: 30px;
+                background:rgb(171,29,84);
+                width: 0px;
+            }
+            .h2{
+                color:white;
+            }
+            #inputBox{
+                border:none;
+                border-radius: 30px;
+            
+            }
+        
+            
+    }

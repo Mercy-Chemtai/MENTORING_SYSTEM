@@ -1,0 +1,135 @@
+body{
+    background-color:rgb(171,29,84);
+    
+
+}
+
+
+.image{
+    padding-left: 5%;
+    margin-top: 5%;
+    
+    
+}
+.profile{
+  display: flex;
+  background-color:rgb(171,29,84);
+  color: white;
+  padding-right: 80%;
+  margin-top: 5%;
+  
+    
+}
+#mentors-details{
+    padding-left: 300px;
+    font-size:25px;
+    width: 20px;
+}
+
+
+
+.navbar{
+    gap: 10%;
+    display:flex;
+    background-color:  white;
+    color: rgb(171,29,84);
+    
+
+
+   
+}
+.company-logo{
+    display:flex
+
+
+}
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    gap: 70%;
+    font-size: larger;
+    
+
+}
+.navbar-links a{
+    text-decoration: none;
+    color:rgb(171,29,84); 
+}
+.profile-header{
+    background-color: rgb(171,29,84);
+    color: white;
+    padding-left: 45%;
+    font-size: larger;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-color:rgb(171,29,84);
+        margin-left: 0px;
+        margin-right: 7px;
+        padding-left: 0px;
+    
+    
+        
+    }
+    
+    
+    .image{
+    
+       width:0px; 
+        
+    }
+    .profile{
+      display: grid;
+      background-color:rgb(171,29,84);
+      color: white;
+      margin-left: 0px;
+      margin-right: 4px;
+        padding-left: 0px;
+        font-size: 10px;
+      
+        
+    }
+
+    .mentors-details{
+        margin-left: 0px;
+        margin-right: 5px;
+        font-size: 2px;
+        padding-right: 0px;
+        display: grid;
+        font-size: 30px;
+
+    }
+    
+    
+    .navbar{
+        display:grid;
+        background-color:white;
+        color: rgb(171,29,84);
+    
+    
+       
+    }
+    .company-logo{
+        display:grid
+    
+    
+    }
+    .navbar-links {
+        display: grid;
+        flex-direction: row;
+        gap:1%;
+        font-size:10px;
+        
+    
+    }
+    .navbar-links a{
+        text-decoration: none;
+        color:rgb(171,29,84); 
+    }
+    .profile-header{
+        background-color: rgb(171,29,84);
+        color: white;
+        font-size: 5px;
+    }
+}

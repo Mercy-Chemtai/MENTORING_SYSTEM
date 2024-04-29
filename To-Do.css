@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(171,29,84);
+}
+.container {
+    margin: 25%;
+    width: 50%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    border: 0.25px solid;
+    border-radius:3%;
+    height: 500px;
+
+  
+}
+.navbar{
+    gap: 35%;
+    display:flex;
+    background-color:  rgb(171,29,84);
+    color: aliceblue;
+
+    
+    
+      
+}
+.company-logo{
+    display:flex
+
+
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    font-size: larger;
+    
+
+}
+.links a{
+    text-decoration: none;
+    color:wheat; 
+    
+}
+.signup button{
+    padding-left: 50%;
+    font-size: xx-large;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(83, 83, 231);
+    
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #3E8E41;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color:rgb(171,29,84);
+    }
+    .container {
+        background-color: aliceblue;
+        border: 0.25px solid;
+        border-radius:3%;
+        height:300px;
+        margin-top: 50%;
+    
+    
+      
+    }
+    .navbar{
+        display:grid;
+        background-color:  rgb(171,29,84);
+        color: aliceblue;
+        
+    
+    }
+    .links{
+        text-align: center;
+        justify-content: center;
+        padding-right: 40%;
+    }
+    .company-logo{
+        display:grid;
+        width: 80%;
+    
+    
+    }
+    .links {
+        display: grid;
+        gap: 2%;
+        text-align: center;
+    }
+    .links a{
+        text-decoration: none;
+        color:wheat; 
+        
+    }
+  
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    label {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 5px;
+    }
+    button {
+    
+        border-radius: 5px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 5px;
+    }
+    button:hover {
+        background-color: #3E8E41;
+    }
+    
+}
+
+
