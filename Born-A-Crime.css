@@ -1,20 +1,21 @@
 .main-container{
-background-color:rgb(171,29,84) ;
 color:white;
-height:1000px;
+height:773px;
 padding-left: 30%;
 font-size: 20px;
-padding: 8%;
+padding: 7%;
+margin: 3px;
 
 
 
 }
 
 .book-summary{
-    background-color:rgb(171,29,84);
     display: flex;
     gap: 200px;
-    font-size: 20px;
+    font-size: 26px;
+    background-color:rgb(171,29,84) ;
+
 
 
 
@@ -53,14 +54,22 @@ padding: 8%;
     color:white; 
     
 }
+.book-image{
+    width: 500px;
+}
+.paragraph {
+    font-size: 27px;
+}
 
 @media only screen and (max-width: 768px){
     .main-container{
     color:white;
     font-size: 5px;
     display: grid;
-    grid-template-columns:min-content;
-
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    
     
     
     
@@ -68,8 +77,14 @@ padding: 8%;
     
     .book-summary{
         display: grid;
-        width: 200px;
-        height: fit-content;
+        width: 300px;
+        font-size: 15px;
+        background-color:rgb(171,29,84) ;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+
+
 
     
     
@@ -78,14 +93,15 @@ padding: 8%;
     .navbar{
         gap: 10px;
         display: grid;
-
+        font-size: 20px;
         color: aliceblue;
         padding-right: 30px;
         text-decoration: none;
+        width: 270px;
         
     }
     .navbar a{
-        padding-right: 2%;
+        padding-right: 1%;
         text-decoration: none;
         color:white;
     }
@@ -103,4 +119,92 @@ padding: 8%;
         color:white; 
         
     }
+    .book-image{
+        width: 200px;
+        height: 500px;
+        margin-top: 20px;
     }
+    .paragraph {
+        font-size: 20px;
+    }
+    }
+
+    @media only screen and (min-width: 780px) and (max-width:1024px){
+        body{
+            background-color:rgb(171,29,84) ;  
+        }
+        .main-container{
+        color:white;
+        font-size: 5px;
+        display: grid;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: white;
+        height: 773px;
+        background-color:rgb(171,29,84) ;
+        
+    
+        
+        
+        
+        
+        }
+        
+        .book-summary{
+            display: grid;
+            width: 230px;
+            font-size: 45px;
+            margin-left: 0px;
+            margin-right: 0px;
+            height: 500px;
+
+            
+
+        
+        }
+.paragraph{
+    font-size: 5px;
+    height: 300px;
+    width: 10px;
+
+
+}
+
+
+
+
+        .navbar{
+            gap: 10px;
+            display: grid;
+            font-size: 20px;
+            color: aliceblue;
+            padding-right: 30px;
+            text-decoration: none;
+            
+        }
+        .navbar a{
+            padding-right: 2%;
+            text-decoration: none;
+            color:white;
+        }
+    
+        .navbar-links {
+            flex-direction: row;
+            gap: 20px;
+            font-size: small;
+        
+            
+        
+        }
+        .navbar-links a{
+            text-decoration: none;
+            color:white; 
+            
+        }
+        .book-image{
+            width: 240px;
+            height: 300px;
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        }

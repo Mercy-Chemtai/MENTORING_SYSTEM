@@ -25,22 +25,31 @@ form{
 }
 
 
-
+.button a{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(171,29,84);
+    width: 20px;
+}
 
 .button {
     padding-left: 40%;
     width: 200px;
-    font-size: xx-large;
+    font-size: 20px;
     background-color:rgb(171,29,84);
-   
-
-}
-.button {
     font-size: larger;
     background-color: rgb(171,29,84);
     text-decoration: none;
     color:white;
+   
+
 }
+/* .button {
+    font-size: larger;
+    background-color: rgb(171,29,84);
+    text-decoration: none;
+    color:white; */
+/* } */
 input{
     font-size: larger;
     padding-left: 15%;

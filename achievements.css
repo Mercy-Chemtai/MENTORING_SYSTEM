@@ -65,7 +65,7 @@ form{
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1028px){
     body{
     min-height: 90vh;
     background: rgb(171,29,84);
@@ -73,11 +73,16 @@ form{
     
     }
     
-    .main-container {
+    .container {
 
         background-color: white;
-        margin-left: 0px;
-        margin-right: 40px;
+        margin-left: 10px;
+        margin-right: 4px;
+        width: 10px;
+        padding-left: 0px;
+        height: 80px;
+        
+
     
     
       
@@ -86,12 +91,18 @@ form{
         display:grid;
         background-color:  rgb(171,29,84);
         color: aliceblue;
+        height: 400px;
+        gap: 0px;
+        
+        
       
           
     }
     form{
         background-color: aliceblue;
-        width:500px;
+        width:20px;
+        
+        
     }
     
     
@@ -104,6 +115,8 @@ form{
     }
     .navbar a {
         display: grid;
+        gap:20px
+        
     
         
     
@@ -111,21 +124,33 @@ form{
         
     
     }
-    .links a{
+    .links {
         text-decoration: none;
         color:wheat; 
-        padding-right: 20%;
+        padding-right: 0px;
         display: grid;
+        margin-right: 2px;
+        margin-left: 0px;
+        gap: 0px;
+        font-size:15px ;
+        height: 300px;
+        width: 30px;
 
         
     }
     .button{
-        padding-left: 50%;
-        font-size: large;
-        width: 200px;
-        height: 100px;
+        padding-left:0%;
+        font-size: small;
+        width: 15px;
+        height: 10px;
         background-color: rgb(83, 83, 231);
         
+    }
+    h1{
+        font-size: small;
+    }
+    input{
+        width: 100px;
     }
     }
 

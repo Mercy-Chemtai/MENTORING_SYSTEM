@@ -20,10 +20,13 @@ body{
   
     
 }
-#mentors-details{
+.mentors-details{
     padding-left: 300px;
     font-size:25px;
     width: 20px;
+    padding-right: 30%;
+    margin-left: 30%;
+
 }
 
 
@@ -62,42 +65,50 @@ body{
     font-size: larger;
     margin-top: 5px;
 }
-@media only screen and (max-width: 768px) {
+
+#mentorsimage{
+    border-radius:50%;
+    width:800px; 
+
+     
+ }
+@media only screen and (max-width: 590px) {
     body{
         background-color:rgb(171,29,84);
         margin-left: 0px;
-        margin-right: 7px;
+        margin-right: 0px;
         padding-left: 0px;
+        padding-right: 0px;
     
     
         
     }
     
     
-    .image{
-    
-       width:0px; 
-        
-    }
     .profile{
       display: grid;
       background-color:rgb(171,29,84);
       color: white;
       margin-left: 0px;
-      margin-right: 4px;
-        padding-left: 0px;
-        font-size: 10px;
+      margin-right: 0px;
+      padding-left: 0px;
+      font-size: 10px;
+      padding-right: 0px;
+    
       
         
     }
 
     .mentors-details{
         margin-left: 0px;
-        margin-right: 5px;
+        margin-right: 0px;
         font-size: 2px;
         padding-right: 0px;
         display: grid;
-        font-size: 30px;
+        font-size: 20px;
+        width: 40px;
+        padding-left: 0px;
+    
 
     }
     
@@ -106,6 +117,7 @@ body{
         display:grid;
         background-color:white;
         color: rgb(171,29,84);
+        margin-right:10px ;
     
     
        
@@ -131,5 +143,107 @@ body{
         background-color: rgb(171,29,84);
         color: white;
         font-size: 5px;
+        margin-top: 1px;
+
+    }
+    #mentorsimage{
+        border-radius:30%;
+        width:100px; 
+        margin-left: 0px;
+        margin-right:0px;
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+    }
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width:1028) {
+    body{
+        background-color:rgb(171,29,84);
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    
+        
+    }
+    
+    
+    .profile{
+      display: grid;
+      background-color:rgb(171,29,84);
+      color: white;
+      margin-left: 0px;
+      margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 10px;
+    
+      
+        
+    }
+
+    .mentors-details{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 2px;
+        padding-right: 0px;
+        display: grid;
+        font-size: 20px;
+        width: 20px;
+        padding-left: 0px;
+    
+
+    }
+    
+    
+    .navbar{
+        display:grid;
+        background-color:white;
+        color: rgb(171,29,84);
+    
+    
+    
+       
+    }
+    .company-logo{
+        display:grid
+    
+    
+    }
+    .navbar-links {
+        display: grid;
+        flex-direction: row;
+        gap:1%;
+        font-size:10px;
+        
+    
+    }
+    .navbar-links a{
+        text-decoration: none;
+        color:rgb(171,29,84); 
+    }
+    .profile-header{
+        background-color: rgb(171,29,84);
+        color: white;
+        font-size: 5px;
+        margin-top: 5px;
+
+    }
+    #mentorsimage{
+        border-radius:30%;
+        width:100px; 
+        margin-left: 0px;
+        margin-right:0px;
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px ;
+
+
     }
 }
