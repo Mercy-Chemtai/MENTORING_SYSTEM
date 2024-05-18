@@ -69,6 +69,7 @@ margin: 3px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: white;
+    padding-right: 5px;
     
     
     
@@ -77,11 +78,12 @@ margin: 3px;
     
     .book-summary{
         display: grid;
-        width: 300px;
+        width: 500px;
         font-size: 15px;
         background-color:rgb(171,29,84) ;
         margin-left: 0px;
-        margin-right: 0px;
+        margin-right: 3px;
+        padding-right: 0px;
         
 
 
@@ -97,7 +99,7 @@ margin: 3px;
         color: aliceblue;
         padding-right: 30px;
         text-decoration: none;
-        width: 270px;
+        width: 470px;
         
     }
     .navbar a{
@@ -129,9 +131,12 @@ margin: 3px;
     }
     }
 
-    @media only screen and (min-width: 780px) and (max-width:1024px){
+    @media only screen and (min-width: 780px) and (max-width:900px){
         body{
-            background-color:rgb(171,29,84) ;  
+            background-color:rgb(171,29,84) ; 
+            margin:0px;
+            margin-right: 5px;
+             margin-left: 0px;
         }
         .main-container{
         color:white;
@@ -207,4 +212,92 @@ margin: 3px;
             margin-top: 20px;
             font-size: 30px;
         }
+        }
+
+
+        @media only screen and (min-width: 900px) and (max-width:1300px){
+            body{
+                background-color:rgb(171,29,84) ; 
+                font-size: 20px; 
+                margin: 10px;
+                padding-left: 5px;
+                margin-right: 5px;
+
+            }
+            .main-container{
+            color:white;
+            font-size: 20px;
+            display: grid;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: white;
+            height: 773px;
+            background-color:rgb(171,29,84) ;
+            
+        
+            
+            
+            
+            
+            }
+            
+            .book-summary{
+                display: grid;
+                width: 430px;
+                font-size: 105px;
+                margin-left: 90px;
+                margin-right: 0px;
+                height: 500px;
+    
+                
+    
+            
+            }
+    .paragraph{
+        font-size: 20px;
+        height: 500px;
+        width: 700px;
+        font-size: 35px;
+    
+    
+    }
+    
+    
+    
+    
+            .navbar{
+                gap: 10px;
+                display: flex;
+                font-size: 30px;
+                color: aliceblue;
+                padding-right: 30px;
+                text-decoration: none;
+                
+            }
+            .navbar a{
+                padding-right: 2%;
+                text-decoration: none;
+                color:white;
+            }
+        
+            .navbar-links {
+                flex-direction: row;
+                gap: 20px;
+                font-size: small;
+            
+                
+            
+            }
+            .navbar-links a{
+                text-decoration: none;
+                color:white; 
+                
+            }
+            .book-image{
+                width: 340px;
+                height: 400px;
+                margin-top: 5px;
+                font-size: 50px;
+                padding-left: 80px;
+            }
         }
